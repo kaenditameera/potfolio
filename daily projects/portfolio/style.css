@@ -1,0 +1,35 @@
+h1{
+    color: rgb(255, rgb(5, 17, 5), rgb(44, 44, 139));
+    font-size: 25px;
+    text-align: center;
+}
+#paral {
+    text-align: center;
+color: brown;
+}
+.note{
+    color: rgb(88, 64, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    background-origin: padding-box;
+}
+.city h2{
+   /*comment ingine
+   ya laini kadhaa*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    border: 2px sandybrown;
+}
+.city p{
+    color: aquamarine;
+}
+.very{
+   /*another comment*/ text-align: center;
+}
+h3,p{
+    color:black;
+    text-align: center;
+}
+*{
+    background-color: slategrey;
+}
+/*this is a comment*/

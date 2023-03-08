@@ -1,0 +1,32 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(212, 203, 193);
+}
+
+.tablink {
+    color: black;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    width: 23%;
+}
+.tabcontent {
+    float: center;
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+.tablink:hover {
+    background-color: blanchedalmond;
+}
+#home {background-color: red;}
+#new {background-color: green;}
+#Contact {background-color: blue;}
+#aout {background-color: orange;}
+

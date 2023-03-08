@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>TAMEERA'S PORTFOLIO</title>
+    <Link rel="stylesheet" href="style.css">
+      <script ></script>
+ <!-- creating one page tabs -->
+ <button class="tablink" onclick="openPage('home',this,'red')">home</button>
+ <button class="tablink" onclick="openPage('home',this,'green')">news</button>
+ <button class="tablink" onclick="openPage('home',this,'blue')">contact</button>
+ <button class="tablink" onclick="openPage('home',this,'orange')">about</button>
+  
+ <div id="home" class="tabcontent">  
+  <h1>home</h1>
+  <p>home is where the heart is </p>
+ </div>
+ <div id="news" class="tabcontent">
+  <h1>news</h1>
+  <p>some news this fine day</p>
+ </div>
+  <div id="contact" class="tabcontent">
+    <h1>contact</h1>
+    <p>get in touch</p>
+  </div>
+  <div id="about" class="tabcontent">  
+    <h1>about</h1>
+    <p>who are we and what do we do</p>
+  </div>
+  <script>
+    
+    function openPage(pageName, elmnt, color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tablinks.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink")
+      for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundcolor = "";
+      }
+      document.getElementById(PageName).style.display = "block";
+elmnt.style.backgroundcolor = color;
+
+    }
+    document.getElementById(defaultOpen).click();
+  </script>
+
+
+    
+    
+    
+    
+</body>
+</html>
